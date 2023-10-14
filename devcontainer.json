@@ -1,0 +1,9 @@
+{
+  "name": "Chrome Remote Desktop and Xfce",
+  "version": "1.0.0",
+  "image": "mcr.microsoft.com/vscode/devcontainers/desktop-lite:latest",
+  "extensions": [
+    "ms-vscode.remote-ssh"
+  ],
+  "postStartCommand": "sudo apt update && sudo apt install -y xorg xfce4 xfce4-terminal chrome-remote-desktop"
+}
